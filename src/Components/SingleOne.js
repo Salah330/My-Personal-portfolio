@@ -8,7 +8,7 @@ export default class SingleOne extends Component {
       <ContextConsumer>
         {(value) => {
           return (
-            <div className="col-10 col-lg-4 mx-auto mb-5">
+            <div className="col-10 col-lg-4 mx-auto mb-5 text-center">
               <div className="card" style={{ width: "18rem" }}>
                 <img className="card-img-top" src={img} alt="Card image cap" />
                 <div className="card-body">

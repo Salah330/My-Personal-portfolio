@@ -24,7 +24,7 @@ export default class Details extends Component {
             link,
           } = value.detail;
           return (
-            <div className="container-fluid  details align-items-center justify-content-center mt-5 bg-light">
+            <div className="container-fluid  details align-items-center justify-content-center">
               <h1 className="display-3 text-center mx-auto font-italic detailsHeader">
                 <span className="text-primary ">Details</span>{" "}
                 <span className="text-dark">of our project</span>
@@ -69,7 +69,7 @@ export default class Details extends Component {
                     </MDBCarouselInner>
                   </MDBCarousel>
                 </MDBContainer>
-                <div className=" col-10 mx-auto col-lg-6 mt-5 p-2 mh-100">
+                <div className="col-10 mx-auto col-lg-6 text-center">
                   <h1 className="display-5 font-weight-bold italic">
                     <em>{headerTitle}</em>
                   </h1>

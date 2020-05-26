@@ -1,3 +1,28 @@
+body {
+  background-color: #f6f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* navbar  */
+.navb {
+  height: 10vh;
+}
+.section {
+  width: 100%;
+  height: 95vh;
+  background: url("./Components/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* start details */
 .details {
   display: grid;
   height: 90vh !important;
@@ -9,7 +34,7 @@
   box-shadow: 0 5px 6px rgba(28, 10, 134, 1), 0 5px 6px rgba(9, 7, 155, 0.23);
   border-radius: 5rem;
 }
-/* details page  */
+
 .detailsHeader {
   /* margin: 20px; */
   font-family: "Paytone One";
@@ -25,7 +50,7 @@
   text-shadow: 0 13.36px 8.896px #9e9e9d, 0 -2px 1px rgb(180, 176, 176);
   letter-spacing: -4px;
 }
-
+/* end  details   */
 /* START hEADER  */
 
 /* eND hEADER  */

@@ -14,14 +14,81 @@ a {
 .navb {
   height: 10vh;
 }
+.blueBlack {
+  color: #0a087c;
+}
 .section {
   width: 100%;
   height: 95vh;
   background: url("./Components/images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
+.text-container p:nth-child(1) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.text-container p:nth-child(2) {
+  font-family: calibri;
+  font-weight: bold;
+  color: #1a1a1a;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+.text-container p:nth-child(3) {
+  font-family: myriad pro regular;
+  color: #403e3e;
+  font-size: 30px;
+}
+.text-container p {
+  line-height: 0;
+  margin: 45px 0 25px;
+}
+.text-container {
+  position: absolute;
+  top: 42%;
+  left: 13%;
+  transform: translate(-13%, -42%);
+}
+.text-container button {
+  width: 132px;
+  height: 42px;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: calibri;
+  border-radius: 14px;
+  color: #373636;
+  border: 2px solid #363737;
+  transition: all 0.4s linear;
+}
+
+.text-container button:hover {
+  transform: scale(1.1);
+}
+/* start model  */
+.model {
+  height: 560px;
+  bottom: 40px;
+  position: absolute;
+  left: 70%;
+  transform: translatex(-70%);
+}
+/* about container */
+.about-container {
+  width: 80%;
+  height: 330px;
+  background-color: #fff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+  margin: -7% auto 20px auto;
+}
 /* start details */
 .details {
   display: grid;

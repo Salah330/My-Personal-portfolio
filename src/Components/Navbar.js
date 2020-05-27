@@ -11,16 +11,16 @@ const Example = (props) => {
         expand="md"
         className="justify-content-between navb"
       >
-        <NavbarBrand href="/">
-          {" "}
+        <NavbarBrand className="text-white font-italic font-weight-bold">
           <img
             src={logo}
             width="30"
             height="30"
-            className="d-inline-block align-top ml-2"
+            className="d-inline-block align-top ml-2 mr-3"
             alt=""
             loading="lazy"
-          ></img>
+          />
+          Salah - Samir
         </NavbarBrand>
         <Nav className="mr-5" navbar>
           <NavItem className="mr4">

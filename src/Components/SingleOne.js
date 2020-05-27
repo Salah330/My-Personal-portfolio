@@ -5,11 +5,11 @@ export default class SingleOne extends Component {
   render() {
     const { id, img, headerTitle, description } = this.props.item;
     return (
-      <ContextConsumer>
+      <ContextConsumer className="col-10 col-lg-4 mx-auto mb-5 flex-fill">
         {(value) => {
           return (
-            <div className="col-10 col-lg-4 mx-auto mb-5 text-center">
-              <div className="card" style={{ width: "18rem" }}>
+            <div className="col-10 col-lg-4 mx-auto mb-5 flex-fill">
+              <div className="card text-center">
                 <img className="card-img-top" src={img} alt="Card image cap" />
                 <div className="card-body">
                   <h5 className="card-title">{headerTitle}</h5>

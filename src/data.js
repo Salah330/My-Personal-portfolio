@@ -9,6 +9,36 @@ export const placeInfo = [
     tools: "Html - Css - Pure JavaScript",
     link: "https://landingpage-netflix.netlify.app",
   },
+  {
+    id: 2,
+    headerTitle: "Netflix landing page",
+    description: "Landing page for netflix as a real website",
+    img: ".././images/netflix/1.png",
+    img2: ".././images/netflix/2.png",
+    img3: ".././images/netflix/3.png",
+    tools: "Html - Css - Pure JavaScript",
+    link: "https://landingpage-netflix.netlify.app",
+  },
+  {
+    id: 3,
+    headerTitle: "Netflix landing page",
+    description: "Landing page for netflix as a real website",
+    img: ".././images/netflix/1.png",
+    img2: ".././images/netflix/2.png",
+    img3: ".././images/netflix/3.png",
+    tools: "Html - Css - Pure JavaScript",
+    link: "https://landingpage-netflix.netlify.app",
+  },
+  {
+    id: 4,
+    headerTitle: "Netflix landing page",
+    description: "Landing page for netflix as a real website",
+    img: ".././images/netflix/1.png",
+    img2: ".././images/netflix/2.png",
+    img3: ".././images/netflix/3.png",
+    tools: "Html - Css - Pure JavaScript",
+    link: "https://landingpage-netflix.netlify.app",
+  },
 ];
 
 export const detailInfo = {

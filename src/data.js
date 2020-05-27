@@ -41,7 +41,7 @@ export const placeInfo = [
   },
   {
     id: 5,
-    headerTitle: "Memoery game",
+    headerTitle: "Memory game",
     description: "simple game using es6 but unfortunately not responsive",
     img: ".././images/memoery-game/1.png",
     img2: ".././images/memoery-game/2.png",

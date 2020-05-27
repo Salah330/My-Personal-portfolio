@@ -6,7 +6,7 @@ export default class Projects extends Component {
     return (
       <div className="container mt-5">
         <h1 className="display-3  mb-5 text-center mx-auto font-italic detailsHeader">
-          <span className="text-dark font-weight-bold italic">Our project</span>
+          <span className="text-dark font-weight-bold italic">My Projects</span>
         </h1>
         <div className="row d-flex justify-content-around mb-5 align-items-center">
           <ContextConsumer>

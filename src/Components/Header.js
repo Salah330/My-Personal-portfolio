@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import model from "./images/model.png";
+import model from "./images/ss.png";
 import about from "./images/about-img.png";
 export default class Header extends Component {
   render() {
@@ -37,9 +37,27 @@ export default class Header extends Component {
               contact me. if you want a good result for your idea, i am waiting
               you.
             </p>
-            <button>Contact Me</button>
+            <button className="mr-2">Contact Me</button>
             <button>My Resume</button>
           </div>
+        </div>
+        {/* social bar  */}
+        <div class="social-a-bars">
+          <a
+            href="https://www.linkedin.com/in/salah-samir-86a782123/"
+            target="_black"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.facebook.com/Salah.samir11" target="_black">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/salah_samir/" target="_black">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:salahsamir11111@gmail.com" target="_black">
+            <i className="fas fa-envelope"></i>
+          </a>
         </div>
       </Fragment>
     );

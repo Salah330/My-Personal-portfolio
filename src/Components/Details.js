@@ -24,7 +24,7 @@ export default class Details extends Component {
             link,
           } = value.detail;
           return (
-            <div className="container-fluid  details align-items-center justify-content-center">
+            <div className="container-fluid  details align-items-center justify-content-center mb-5">
               <h1 className="display-3 text-center mx-auto font-italic detailsHeader">
                 <span className="text-primary ">Details</span>{" "}
                 <span className="text-dark">of our project</span>

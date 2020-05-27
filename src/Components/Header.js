@@ -37,7 +37,9 @@ export default class Header extends Component {
               contact me. if you want a good result for your idea, i am waiting
               you.
             </p>
-            <button className="mr-2">Contact Me</button>
+            <button className="mr-2" href="mailto:salahsamir11111@gmail.com">
+              Contact Me
+            </button>
             <button>My Resume</button>
           </div>
         </div>

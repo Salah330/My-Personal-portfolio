@@ -45,7 +45,7 @@ export const placeInfo = [
     description: "simple game using es6 but unfortunately not responsive",
     img: ".././images/memoery-game/1.png",
     img2: ".././images/memoery-games/2.png",
-    img3: ".././images/memoery-game/1.png",
+    img3: ".././images/memoery-games/1.png",
     tools: "Html - Css - Bootstrap - React js",
     link: "https://salah330.github.io/MemoryGame-ES6/",
   },

@@ -9,10 +9,7 @@ ul {
 a {
   text-decoration: none;
 }
-/* navbar  */
-.navb {
-  height: 10vh;
-}
+
 .blueBlack {
   color: #0a087c;
 }
@@ -153,7 +150,7 @@ a {
 }
 .card {
   box-shadow: 0 5px 6px rgba(28, 10, 134, 1), 0 5px 6px rgba(9, 7, 155, 0.23);
-  border-radius: 5rem;
+  border-radius: 0 0 3rem 3rem;
 }
 
 .detailsHeader {

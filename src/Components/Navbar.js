@@ -9,22 +9,22 @@ const Example = (props) => {
         color="dark"
         light
         expand="md"
-        className="justify-content-between navb"
+        className="justify-content-between"
       >
         <NavbarBrand className="text-white font-italic font-weight-bold">
           <img
             src={logo}
             width="30"
             height="30"
-            className="d-inline-block align-top ml-2 mr-3"
+            className="d-inline-block align-top ml-2"
             alt=""
             loading="lazy"
-          />
+          />{" "}
           Salah - Samir
         </NavbarBrand>
-        <Nav className="mr-5" navbar>
-          <NavItem className="mr4">
-            <Link className="text-white text-uppercase ml-5" to="/">
+        <Nav className="mr-2" navbar>
+          <NavItem>
+            <Link className="text-white text-uppercase" to="/">
               Home &nbsp; <i className="fas fa-home"></i>
             </Link>
           </NavItem>
